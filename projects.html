@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Progetti - [Tuo Nome]</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetti - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav>
+        <div class="logo">TUO NOME</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Progetti</a></li>
+            <li><a href="contacts.html">Contatti</a></li>
+        </ul>
+    </nav>
 
-<header class="header">
-  <div class="logo">[Tuo Nome]</div>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">Chi sono</a>
-    <a href="contacts.html">Contatti</a>
-  </nav>
-</header>
+    <main class="container page-content">
+        <h2>I Miei Progetti</h2>
+        <p>Ecco una selezione dei lavori che mostrano le mie competenze.</p>
 
-<section class="projects">
-  <h1>I miei Progetti</h1>
-  <div class="projects-grid">
-    <div class="project-card">
-      <h3>🎮 Analisi dei Videogiochi</h3>
-      <p>Analisi delle vendite globali con Python e visualizzazioni interattive.</p>
-      <a href="https://github.com/tuonome/progetto-videogiochi" target="_blank">→ GitHub</a>
-    </div>
-    <div class="project-card">
-      <h3>🤖 Modello Machine Learning</h3>
-      <p>Previsioni numeriche con regressione e reti neurali.</p>
-      <a href="https://github.com/tuonome/ml-project" target="_blank">→ GitHub</a>
-    </div>
-    <div class="project-card">
-      <h3>📈 Dashboard Data Science</h3>
-      <p>Dashboard interattiva con Plotly e Streamlit.</p>
-      <a href="https://github.com/tuonome/dashboard-datascience" target="_blank">→ GitHub</a>
-    </div>
-  </div>
-</section>
+        <div class="project-grid">
+            
+            <div class="project-card">
+                <div class="card-placeholder-img"></div>
+                <h3>Nome Progetto 1 (Es. Analisi predittiva)</h3>
+                <p>Breve descrizione del progetto. Cosa faceva? Quale problema risolveva? Che tecnologie hai usato?</p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Scikit-learn</span>
+                    <span>Kaggle</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="cta-button secondary">Vedi su GitHub</a>
+                    </div>
+            </div>
 
-<footer>
-  <p>© 2025 [Tuo Nome]</p>
-</footer>
+            <div class="project-card">
+                <div class="card-placeholder-img"></div>
+                <h3>Nome Progetto 2 (Es. Dashboard)</h3>
+                <p>Una dashboard interattiva creata con Plotly Dash per visualizzare... lorem ipsum dolor sit amet.</p>
+                <div class="project-tags">
+                    <span>Dash</span>
+                    <span>Plotly</span>
+                    <span>Pandas</span>
+                </div>
+                <div class="project-links">
+                    <a href="#" class="cta-button secondary">Vedi su GitHub</a>
+                    <a href="#" class="cta-button">Demo Live</a>
+                </div>
+            </div>
 
+            </div>
+    </main>
 </body>
 </html>

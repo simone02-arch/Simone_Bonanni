@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chi sono - [Tuo Nome]</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav>
+        <div class="logo">TUO NOME</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="projects.html">Progetti</a></li>
+            <li><a href="contacts.html">Contatti</a></li>
+        </ul>
+    </nav>
 
-<header class="header">
-  <div class="logo">[Tuo Nome]</div>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Progetti</a>
-    <a href="contacts.html">Contatti</a>
-  </nav>
-</header>
-
-<section class="about">
-  <h1>Chi sono</h1>
-  <p>Mi chiamo <strong>[Tuo Nome]</strong>, laureato in Matematica e specializzando in Data Science. Amo trasformare dati complessi in insight chiari e soluzioni concrete. La tecnologia, la musica e i videogiochi sono fonti di ispirazione quotidiana.</p>
-  <p>Sono appassionato di analisi statistica, programmazione avanzata e visualizzazione dati. Cerco sempre di imparare nuove tecniche per crescere professionalmente e personalmente.</p>
-  <p>Credo nella curiosità, nella creatività e nel potere della collaborazione.</p>
-</section>
-
-<footer>
-  <p>© 2025 [Tuo Nome]</p>
-</footer>
+    <main class="container page-content">
+        <h2>Su di Me</h2>
+        
+        <div class="about-grid">
+            <div class="about-text">
+                <h3>Da Matematico a Data Scientist</h3>
+                <p>La mia passione per i numeri è nata con la **Laurea in Matematica**, dove ho imparato a vedere il mondo attraverso modelli e logica. Ora, sto canalizzando quella precisione analitica nella **specializzazione in Data Science**.</p>
+                <p>Amo trasformare dati caotici in insight chiari e costruire modelli che abbiano un impatto reale. La tecnologia non è solo il mio campo di studio, è la mia passione.</p>
+                
+                <h3>Competenze Tecniche</h3>
+                <ul class="skills-list">
+                    <li>Python (Pandas, NumPy, Scikit-learn)</li>
+                    <li>TensorFlow / Keras</li>
+                    <li>SQL e NoSQL (MongoDB)</li>
+                    <li>Data Visualization (Matplotlib, Seaborn, Plotly)</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+            
+            <div class="about-aside">
+                <h3>Oltre il Codice</h3>
+                <p>Quando non sono immerso in un dataset, mi troverai probabilmente con le cuffie addosso o un controller in mano.</p>
+                <ul>
+                    <li>🎮 **Gaming:** Sono un avido giocatore, dai tripla A strategici agli indie. La logica di gioco e il problem-solving mi affascinano.</li>
+                    <li>🎵 **Musica:** La musica è la mia colonna sonora quotidiana. Produco musica elettronica nel tempo libero e suono la chitarra.</li>
+                </ul>
+                </div>
+        </div>
+    </main>
 
 </body>
 </html>
