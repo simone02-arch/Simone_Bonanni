@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio di [Tuo Nome]</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Benvenuto nel mio Portfolio</h1>
+  <header class="header">
+    <div class="logo">[Tuo Nome]</div>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">Chi sono</a>
@@ -19,15 +20,27 @@
 
   <main>
     <section class="hero">
-      <h2>Ciao, sono [Tuo Nome] 👋</h2>
-      <p>Laureato in Matematica, specializzando in Data Science.  
-      Amo la tecnologia, la musica e i videogiochi 🎮🎶</p>
+      <h1>Ciao, sono <span class="accent">[Tuo Nome]</span> 👋</h1>
+      <p>Laureato in <strong>Matematica</strong>, specializzando in <strong>Data Science</strong>.<br>
+      Appassionato di tecnologia, musica e videogiochi 🎮🎶</p>
       <a href="projects.html" class="btn">Scopri i miei progetti</a>
+    </section>
+
+    <section class="skills">
+      <h2>Competenze</h2>
+      <div class="skills-grid">
+        <div class="skill-card">Python 🐍</div>
+        <div class="skill-card">Machine Learning 🤖</div>
+        <div class="skill-card">Data Visualization 📊</div>
+        <div class="skill-card">Matematica e Statistica 📐</div>
+        <div class="skill-card">SQL & Database 💾</div>
+        <div class="skill-card">Git & GitHub 🌐</div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 [Tuo Nome] – Tutti i diritti riservati</p>
+    <p>© 2025 [Tuo Nome] – Costruito con ❤️ e curiosità</p>
   </footer>
 </body>
 </html>
