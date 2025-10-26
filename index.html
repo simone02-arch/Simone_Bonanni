@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<html lang='it'>
+<html lang="it">
 <head>
-<meta charset='UTF-8'>
-<title>Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio di [Tuo Nome]</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Portfolio di [Tuo Nome]</h1>
+
+<header class="header">
+  <div class="logo">[Tuo Nome]</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">Chi sono</a>
+    <a href="projects.html">Progetti</a>
+    <a href="passions.html">Passioni</a>
+    <a href="contacts.html">Contatti</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <img src="images/profilo.jpg" alt="Foto di [Tuo Nome]" class="profile-pic">
+    <div class="hero-text">
+      <h1>Ciao, sono <span class="accent">[Tuo Nome]</span> 👋</h1>
+      <p>Laureato in <strong>Matematica</strong> e specializzando in <strong>Data Science</strong><br>
+      Appassionato di tecnologia, musica e videogiochi 🎮🎶</p>
+      <a href="projects.html" class="btn">Scopri i miei progetti</a>
+    </div>
+  </div>
+</section>
+
+<section class="presentation-video">
+  <h2>Chi sono in video</h2>
+  <video controls>
+    <source src="videos/presentation.mp4" type="video/mp4">
+    Il tuo browser non supporta i video HTML5.
+  </video>
+</section>
+
+<section class="skills">
+  <h2>Competenze</h2>
+  <div class="skills-grid">
+    <div class="skill-card"><span class="skill-name">Python 🐍</span><div class="skill-bar" style="width:90%"></div></div>
+    <div class="skill-card"><span class="skill-name">Machine Learning 🤖</span><div class="skill-bar" style="width:85%"></div></div>
+    <div class="skill-card"><span class="skill-name">Data Visualization 📊</span><div class="skill-bar" style="width:80%"></div></div>
+    <div class="skill-card"><span class="skill-name">Matematica & Statistica 📐</span><div class="skill-bar" style="width:95%"></div></div>
+    <div class="skill-card"><span class="skill-name">SQL & Database 💾</span><div class="skill-bar" style="width:75%"></div></div>
+    <div class="skill-card"><span class="skill-name">Git & GitHub 🌐</span><div class="skill-bar" style="width:85%"></div></div>
+  </div>
+</section>
+
+<footer>
+  <div class="social-icons">
+    <a href="https://github.com/tuonome" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/tuonome" target="_blank">LinkedIn</a>
+    <a href="https://spotify.com/user/tuonome" target="_blank">Spotify</a>
+  </div>
+  <p>© 2025 [Tuo Nome] – Costruito con ❤️ e passione per i dati</p>
+</footer>
+
 </body>
 </html>
